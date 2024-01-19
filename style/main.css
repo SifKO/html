@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    white-space: nowrap;   
+    width: 100%;
+    height: 312px; 
+    background: linear-gradient(180deg, rgba(103, 70, 185, 0.5) -38.84%, rgba(103, 70, 185, 0) 68.72%, rgba(103, 70, 185, 0) 90.23%);
+    color: #fff; /*color of element*/
+    /* Config font */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* END CF */
+}
+.logo {
+    width: 250px;
+    margin-top: 79px;
+    margin-left: 200px;
+    margin-right: 111px;
+}
+.header_wrap {
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 100px;
+}
+.header_wrap ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.header_wrap li {
+    margin-right: 141px;
+}
+.header_wrap a {
+    text-decoration: none;
+    color: black;
+}
+
+.header_wrap li:last-child {
+    margin-right: 0; /* Убираем margin с последнего элемента */
+  }
+
+.header_button {
+    margin-left: 170px;
+    margin-top: 100px;
+    margin-right: 207px;
+}
+
+.header_button ul {
+    list-style: none;
+    display: flex;    
+}
+.header_button li{
+    padding-left: 90px;
+}
+
+.header_button a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_button button {
+    width: 124px;
+    height: 33px;
+    background: #6746B9;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
